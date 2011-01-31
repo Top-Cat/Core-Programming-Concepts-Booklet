@@ -11,7 +11,7 @@ Module Module1
             Else
                 Console.WriteLine(Wrong)
             End If
-        Loop Until guess = word Or guess = NO MORE
+        Loop Until guess = word Or guess = "NO MORE"
     End Sub
 
 End Module
